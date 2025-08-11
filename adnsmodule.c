@@ -12,6 +12,7 @@ any later version.
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <sys/endian.h>
 
 static PyObject *ErrorObject;
 static PyObject *NotReadyError;
